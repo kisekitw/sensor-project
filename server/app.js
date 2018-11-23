@@ -8,11 +8,9 @@ app.get('/temperature', function(req, res) {
     res.send('24 °C');
 });
 
-// app.get('/streamingVideo', (req, res) => {
-    
-// });
-
-
+app.get('/humidity', function(req, res) {
+    res.send('48%');
+  });
 
 
 app.listen(3000, function(){
